@@ -65,8 +65,19 @@ class ViewController: UIViewController {
             print("Oops! Something went wrong!")
         }
     }
+    @IBOutlet weak var scoreLabel: UILabel!
     @IBAction func calculateAverage(_ sender: Any) {
-        
+        var average = 0.00
+        if (counter == 2) {
+        if let grade1dec = Double(grade1.text!), let grade2dec = Double(grade2.text!) {
+            average = (grade1dec + grade2dec) / 2
+            scoreLabel.text = "Your average is: " + average.formatted();
+            scoreLabel.isHidden = false
+        }
+        else {
+                print("Oops! Something went wrong!")
+             }
+        }
     }
     override func viewDidLoad() {
         super.viewDidLoad()
