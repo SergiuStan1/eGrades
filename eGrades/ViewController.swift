@@ -17,6 +17,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var grade3: UITextField!
     @IBOutlet weak var grade1: UITextField!
     @IBOutlet weak var grade2: UITextField!
+    @IBOutlet weak var pc1: UITextField!
+    @IBOutlet weak var pc2: UITextField!
+    @IBOutlet weak var pc3: UITextField!
+    @IBOutlet weak var pc4: UITextField!
+    @IBOutlet weak var pc5: UITextField!
+    @IBOutlet weak var pc6: UITextField!
+    @IBOutlet weak var pc7: UITextField!
+    @IBOutlet weak var pc8: UITextField!
+    
     public var gradeList = [Any]()
     var counter = 2
     @IBAction func addGrade(_ sender: UIButton) {
@@ -24,16 +33,22 @@ class ViewController: UIViewController {
         switch counter {
         case 3:
             grade3.isHidden = false
+            pc3.isHidden = false
         case 4:
             grade4.isHidden = false
+            pc4.isHidden = false
         case 5:
             grade5.isHidden = false
+            pc5.isHidden = false
         case 6:
             grade6.isHidden = false
+            pc6.isHidden = false
         case 7:
             grade7.isHidden = false
+            pc7.isHidden = false
         case 8:
             grade8.isHidden = false
+            pc8.isHidden = false
         default:
             print("Oops! Something went wrong!")
         }
@@ -45,21 +60,27 @@ class ViewController: UIViewController {
         switch counter {
         case 3:
             grade3.isHidden = true
+            pc3.isHidden = true
             counter -= 1
         case 4:
             grade4.isHidden = true
+            pc4.isHidden = true
             counter -= 1
         case 5:
             grade5.isHidden = true
+            pc5.isHidden = true
             counter -= 1
         case 6:
             grade6.isHidden = true
+            pc6.isHidden = true
             counter -= 1
         case 7:
             grade7.isHidden = true
+            pc7.isHidden = true
             counter -= 1
         case 8:
             grade8.isHidden = true
+            pc8.isHidden = true
             counter -= 1
         default:
             print("Oops! Something went wrong!")
@@ -130,6 +151,12 @@ class ViewController: UIViewController {
         gradeList.append(grade1)
         gradeList.append(grade2)
         // ------------------------------
+        pc3.isHidden = true
+        pc4.isHidden = true
+        pc5.isHidden = true
+        pc6.isHidden = true
+        pc7.isHidden = true
+        pc8.isHidden = true
         grade1.text = "Enter you grade"
         grade1.clearsOnInsertion = true
         grade2.text = "Enter your grade"
