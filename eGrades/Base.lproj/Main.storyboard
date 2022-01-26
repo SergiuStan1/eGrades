@@ -78,6 +78,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
+                                    <action selector="g2:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="77u-RL-RXe"/>
+                                    <action selector="g2end:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="uCX-3h-RNk"/>
                                     <action selector="grade2ValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="r8N-4Y-6l7"/>
                                 </connections>
                             </textField>
@@ -87,7 +89,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
-                                    <action selector="grChaned:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="MtJ-DE-eHH"/>
+                                    <action selector="g3:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="gwz-Cw-rqv"/>
+                                    <action selector="g3end:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="piB-os-fmN"/>
                                     <action selector="grade3ValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="kNI-Ay-fdQ"/>
                                 </connections>
                             </textField>
@@ -97,6 +100,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
+                                    <action selector="g8:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="SMK-2e-8HU"/>
+                                    <action selector="g8end:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="6zo-B7-TWb"/>
                                     <action selector="grade8ValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="1ot-WB-beH"/>
                                 </connections>
                             </textField>
@@ -106,6 +111,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
+                                    <action selector="g7:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="5UN-Ew-ufl"/>
+                                    <action selector="g7end:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="e0b-Q3-jsA"/>
                                     <action selector="grade7ValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="N2r-5x-5vB"/>
                                 </connections>
                             </textField>
@@ -114,18 +121,30 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="g4:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="mo0-Ob-9Ry"/>
+                                    <action selector="g4end:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="EdX-GW-b0j"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VB8-7n-v2x">
                                 <rect key="frame" x="116" y="303" width="183" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="g5:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="wvI-bA-R7p"/>
+                                    <action selector="g5end:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="IzU-sw-KkD"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8KL-O3-vsN">
                                 <rect key="frame" x="116" y="345" width="183" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="g6:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="674-Lp-S8N"/>
+                                    <action selector="g6end:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Qon-uZ-HAI"/>
+                                </connections>
                             </textField>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2a-A8-hbc">
                                 <rect key="frame" x="116" y="495" width="183" height="83"/>

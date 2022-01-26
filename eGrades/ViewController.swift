@@ -34,7 +34,63 @@ class ViewController: UIViewController {
             grade1.text = "Enter your grade"
         }
     }
+    @IBAction func g2(_ sender: UITextField) {
+        grade2.text = ""
+    }
+    @IBAction func g2end(_ sender: UITextField) {
+        if (grade2.text == ""){
+            grade2.text = "Enter your grade"
+        }
+    }
+    @IBAction func g3(_ sender: UITextField) {
+        grade3.text = ""
+    }
+    @IBAction func g3end(_ sender: UITextField) {
+        if (grade3.text == ""){
+            grade3.text = "Enter your grade"
+        }
+    }
+    @IBAction func g8(_ sender: UITextField) {
+        grade8.text = ""
+    }
+    @IBAction func g8end(_ sender: UITextField) {
+        if (grade8.text == ""){
+            grade8.text = "Enter your grade"
+        }
+    }
+    @IBAction func g7(_ sender: UITextField) {
+        grade7.text = ""
+    }
+    @IBAction func g7end(_ sender: UITextField) {
+        if (grade7.text == ""){
+            grade7.text = "Enter your grade"
+        }
+    }
+    @IBAction func g4(_ sender: UITextField) {
+        grade4.text = ""
+    }
+    @IBAction func g4end(_ sender: UITextField) {
+        if (grade4.text == ""){
+            grade4.text = "Enter your grade"
+        }
+    }
+    @IBAction func g5(_ sender: UITextField) {
+        grade5.text = ""
+    }
+    @IBAction func g5end(_ sender: UITextField) {
+        if (grade5.text == ""){
+            grade5.text = "Enter your grade"
+        }
+    }
+    @IBAction func g6(_ sender: UITextField) {
+        grade6.text = ""
+    }
     
+    @IBAction func g6end(_ sender: UITextField) {
+        if (grade6.text == ""){
+            grade6.text = "Enter your grade"
+        }
+    }
     
     public var gradeList = [Any]()
     var counter = 2
