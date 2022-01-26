@@ -16,6 +16,7 @@
 		5288F88F27A0629E0072C604 /* eGradesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288F88E27A0629E0072C604 /* eGradesTests.swift */; };
 		5288F89927A0629E0072C604 /* eGradesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288F89827A0629E0072C604 /* eGradesUITests.swift */; };
 		5288F89B27A0629E0072C604 /* eGradesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288F89A27A0629E0072C604 /* eGradesUITestsLaunchTests.swift */; };
+		52BFFDAB27A1BD3F00C9DB37 /* Help.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BFFDAA27A1BD3F00C9DB37 /* Help.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5288F89427A0629E0072C604 /* eGradesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eGradesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5288F89827A0629E0072C604 /* eGradesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eGradesUITests.swift; sourceTree = "<group>"; };
 		5288F89A27A0629E0072C604 /* eGradesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eGradesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52BFFDAA27A1BD3F00C9DB37 /* Help.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Help.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				5288F88027A0629E0072C604 /* Assets.xcassets */,
 				5288F88227A0629E0072C604 /* LaunchScreen.storyboard */,
 				5288F88527A0629E0072C604 /* Info.plist */,
+				52BFFDAA27A1BD3F00C9DB37 /* Help.storyboard */,
 			);
 			path = eGrades;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				5288F88427A0629E0072C604 /* LaunchScreen.storyboard in Resources */,
 				5288F88127A0629E0072C604 /* Assets.xcassets in Resources */,
 				5288F87F27A0629D0072C604 /* Main.storyboard in Resources */,
+				52BFFDAB27A1BD3F00C9DB37 /* Help.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
