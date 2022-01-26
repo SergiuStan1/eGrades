@@ -65,30 +65,49 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="g1:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="0U4-xQ-fSa"/>
+                                    <action selector="g1end:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="ab2-p3-JBk"/>
+                                    <action selector="grade1A:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4fi-xC-2VB"/>
+                                    <action selector="grade1ValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="F0B-su-piB"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jjF-H4-DcC">
                                 <rect key="frame" x="116" y="177" width="183" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="grade2ValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="r8N-4Y-6l7"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eDP-EX-F9b">
                                 <rect key="frame" x="116" y="219" width="183" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="grChaned:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="MtJ-DE-eHH"/>
+                                    <action selector="grade3ValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="kNI-Ay-fdQ"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gma-UD-Qw5">
                                 <rect key="frame" x="116" y="431" width="183" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="grade8ValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="1ot-WB-beH"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tYJ-XY-yxc">
                                 <rect key="frame" x="116" y="387" width="183" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="grade7ValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="N2r-5x-5vB"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Z4p-wZ-o1q">
                                 <rect key="frame" x="116" y="261" width="183" height="34"/>

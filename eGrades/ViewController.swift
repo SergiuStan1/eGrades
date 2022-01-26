@@ -26,8 +26,19 @@ class ViewController: UIViewController {
     @IBOutlet weak var pc7: UITextField!
     @IBOutlet weak var pc8: UITextField!
     
+    @IBAction func g1(_ sender: UITextField) {
+        grade1.text = ""
+    }
+    @IBAction func g1end(_ sender: UITextField) {
+        if (grade1.text == ""){
+            grade1.text = "Enter your grade"
+        }
+    }
+    
+    
     public var gradeList = [Any]()
     var counter = 2
+    
     @IBAction func addGrade(_ sender: UIButton) {
         counter += 1
         switch counter {
@@ -164,23 +175,23 @@ class ViewController: UIViewController {
         pc6.isHidden = true
         pc7.isHidden = true
         pc8.isHidden = true
-        grade1.text = "Enter you grade"
+        grade1.text = "Enter your grade"
         grade1.clearsOnInsertion = true
         grade2.text = "Enter your grade"
         grade2.clearsOnInsertion = true
-        grade3.text = "Enter you grade"
+        grade3.text = "Enter your grade"
         grade3.clearsOnInsertion = true
         grade3.isHidden = true
         grade4.text = "Enter your grade"
         grade4.clearsOnInsertion = true
         grade4.isHidden = true
-        grade5.text = "Enter you grade"
+        grade5.text = "Enter your grade"
         grade5.clearsOnInsertion = true
         grade5.isHidden = true
         grade6.text = "Enter your grade"
         grade6.clearsOnInsertion = true
         grade6.isHidden = true
-        grade7.text = "Enter you grade"
+        grade7.text = "Enter your grade"
         grade7.clearsOnInsertion = true
         grade7.isHidden = true
         grade8.text = "Enter your grade"
