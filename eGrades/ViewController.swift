@@ -154,12 +154,24 @@ class ViewController: UIViewController {
         }
     }
     @IBOutlet weak var scoreLabel: UILabel!
+    // Functions that calculates weighted averages
+    func weightedAverage(values: [Double], weights: [Double]) -> Double {
+        precondition(values.count > 0 && values.count == weights.count)
+
+        let totalWeight = weights.reduce(0.0, +)
+        precondition(totalWeight > 0)
+
+        return zip(values, weights)
+                .map { $0 * $1 }
+                .reduce(0.0, +) / totalWeight
+    }
     @IBAction func calculateAverage(_ sender: Any) {
         var average = 0.00
         // Default case
         if (counter == 2) {
-        if let grade1dec = Double(grade1.text!), let grade2dec = Double(grade2.text!) {
-            average = (grade1dec + grade2dec) / 2
+            if let grade1dec = Double(grade1.text!), let grade2dec = Double(grade2.text!),
+               let pc1int = Double(pc1.text!) , let pc2int = Double(pc2.text!){
+            average = weightedAverage(values: [grade1dec, grade2dec], weights: [pc1int, pc2int])
             scoreLabel.text = "Your average is: " + average.formatted();
             scoreLabel.isHidden = false
         }
@@ -168,45 +180,53 @@ class ViewController: UIViewController {
              }
         }
         if (counter == 4){
-            if let grade1dec = Double(grade1.text!), let grade2dec = Double(grade2.text!), let grade3dec = Double(grade3.text!), let grade4dec = Double(grade4.text!) {
-                average = (grade1dec + grade2dec + grade3dec + grade4dec) / 4
+            if let grade1dec = Double(grade1.text!), let grade2dec = Double(grade2.text!), let grade3dec = Double(grade3.text!), let grade4dec = Double(grade4.text!), let pc1int = Double(pc1.text!) , let pc2int = Double(pc2.text!), let pc3int = Double(pc3.text!), let pc4int = Double(pc4.text!) {
+                average = weightedAverage(values: [grade1dec, grade2dec, grade3dec, grade4dec],
+                                          weights: [pc1int, pc2int, pc3int, pc4int])
                 scoreLabel.text = "Your average is: " + average.formatted()
                 scoreLabel.isHidden = false
             }
         }
         if (counter == 5){
-            if let grade1dec = Double(grade1.text!), let grade2dec = Double(grade2.text!), let grade3dec = Double(grade3.text!), let grade4dec = Double(grade4.text!), let grade5dec = Double(grade5.text!) {
-                average = (grade1dec + grade2dec + grade3dec + grade4dec + grade5dec) / 5
+            if let grade1dec = Double(grade1.text!), let grade2dec = Double(grade2.text!), let grade3dec = Double(grade3.text!), let grade4dec = Double(grade4.text!), let grade5dec = Double(grade5.text!), let pc1int = Double(pc1.text!) , let pc2int = Double(pc2.text!), let pc3int = Double(pc3.text!), let pc4int = Double(pc4.text!), let pc5int = Double(pc5.text!) {
+                average = weightedAverage(values: [grade1dec, grade2dec, grade3dec, grade4dec, grade5dec],
+                                          weights: [pc1int, pc2int, pc3int, pc4int, pc5int])
                 scoreLabel.text = "Your average is: " + average.formatted()
                 scoreLabel.isHidden = false
             }
         }
         if (counter == 6){
-            if let grade1dec = Double(grade1.text!), let grade2dec = Double(grade2.text!), let grade3dec = Double(grade3.text!), let grade4dec = Double(grade4.text!), let grade5dec = Double(grade5.text!), let grade6dec = Double(grade6.text!) {
-                average = (grade1dec + grade2dec + grade3dec + grade4dec + grade5dec + grade6dec) / 6
+            if let grade1dec = Double(grade1.text!), let grade2dec = Double(grade2.text!), let grade3dec = Double(grade3.text!), let grade4dec = Double(grade4.text!), let grade5dec = Double(grade5.text!), let grade6dec = Double(grade6.text!),
+                let pc1int = Double(pc1.text!) , let pc2int = Double(pc2.text!), let pc3int = Double(pc3.text!), let pc4int = Double(pc4.text!), let pc5int = Double(pc5.text!), let pc6int = Double(pc6.text!){
+                average = weightedAverage(values: [grade1dec, grade2dec, grade3dec, grade4dec, grade5dec, grade6dec],
+                                          weights: [pc1int, pc2int, pc3int, pc4int, pc5int, pc6int])
                 scoreLabel.text = "Your average is: " + average.formatted()
                 scoreLabel.isHidden = false
             }
         }
         if (counter == 7){
             if let grade1dec = Double(grade1.text!), let grade2dec = Double(grade2.text!), let grade3dec = Double(grade3.text!), let grade4dec = Double(grade4.text!), let grade5dec = Double(grade5.text!), let grade6dec = Double(grade6.text!),
-                let grade7dec = Double(grade7.text!){
-                average = (grade1dec + grade2dec + grade3dec + grade4dec + grade5dec + grade6dec + grade7dec) / 7
+                let grade7dec = Double(grade7.text!), let pc1int = Double(pc1.text!) , let pc2int = Double(pc2.text!), let pc3int = Double(pc3.text!), let pc4int = Double(pc4.text!), let pc5int = Double(pc5.text!), let pc6int = Double(pc6.text!), let pc7int = Double(pc7.text!){
+                average = weightedAverage(values: [grade1dec, grade2dec, grade3dec, grade4dec, grade5dec, grade6dec, grade7dec],
+                                          weights: [pc1int, pc2int, pc3int, pc4int, pc5int, pc6int, pc7int])
                 scoreLabel.text = "Your average is: " + average.formatted()
                 scoreLabel.isHidden = false
             }
         }
         if (counter == 8){
             if let grade1dec = Double(grade1.text!), let grade2dec = Double(grade2.text!), let grade3dec = Double(grade3.text!), let grade4dec = Double(grade4.text!), let grade5dec = Double(grade5.text!), let grade6dec = Double(grade6.text!),
-               let grade7dec = Double(grade7.text!), let grade8dec = Double(grade8.text!) {
-                average = (grade1dec + grade2dec + grade3dec + grade4dec + grade5dec + grade6dec + grade7dec + grade8dec) / 8
+                let grade7dec = Double(grade7.text!), let grade8dec = Double(grade8.text!), let pc1int = Double(pc1.text!) , let pc2int = Double(pc2.text!), let pc3int = Double(pc3.text!), let pc4int = Double(pc4.text!), let pc5int = Double(pc5.text!), let pc6int = Double(pc6.text!), let pc7int = Double(pc7.text!), let pc8int = Double(pc8.text!) {
+                average = weightedAverage(values: [grade1dec, grade2dec, grade3dec, grade4dec, grade5dec, grade6dec, grade7dec,                                   grade8dec],
+                                          weights: [pc1int, pc2int, pc3int, pc4int, pc5int, pc6int, pc7int, pc8int])
                 scoreLabel.text = "Your average is: " + average.formatted()
                 scoreLabel.isHidden = false
             }
         }
         if (counter == 3) {
-            if let grade1dec = Double(grade1.text!), let grade2dec = Double(grade2.text!), let grade3dec = Double(grade3.text!) {
-                average = (grade1dec + grade2dec + grade3dec) / 3
+            if let grade1dec = Double(grade1.text!), let grade2dec = Double(grade2.text!), let grade3dec = Double(grade3.text!),
+               let pc1int = Double(pc1.text!) , let pc2int = Double(pc2.text!), let pc3int = Double(pc3.text!){
+                average = weightedAverage(values: [grade1dec, grade2dec, grade3dec],
+                                          weights: [pc1int, pc2int, pc3int])
                 scoreLabel.text = "Your average is: " + average.formatted()
                 scoreLabel.isHidden = false
         }
