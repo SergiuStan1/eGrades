@@ -26,6 +26,94 @@ class ViewController: UIViewController {
     @IBOutlet weak var pc7: UITextField!
     @IBOutlet weak var pc8: UITextField!
     
+    @IBAction func p1(_ sender: UITextField) {
+        pc1.text = ""
+    }
+    @IBAction func p1end(_ sender: UITextField) {
+        if (pc1.text == ""){
+            pc1.text = "0%"
+        }
+        else {
+            pc1.text = pc1.text! + "%"
+        }
+    }
+    @IBAction func p2(_ sender: UITextField) {
+        pc2.text = ""
+    }
+    @IBAction func p2end(_ sender: UITextField) {
+        if (pc2.text == ""){
+            pc2.text = "0%"
+        }
+        else {
+            pc2.text = pc2.text! + "%"
+        }
+    }
+    @IBAction func p3(_ sender: UITextField) {
+        pc3.text = ""
+    }
+    @IBAction func p3end(_ sender: UITextField) {
+        if (pc3.text == ""){
+            pc3.text = "0%"
+        }
+        else {
+            pc3.text = pc3.text! + "%"
+        }
+    }
+    @IBAction func p4(_ sender: UITextField) {
+        pc4.text = ""
+    }
+    @IBAction func p4end(_ sender: UITextField) {
+        if (pc4.text == ""){
+            pc4.text = "0%"
+        }
+        else {
+            pc4.text = pc4.text! + "%"
+        }
+    }
+    @IBAction func p5(_ sender: UITextField) {
+        pc5.text = ""
+    }
+    @IBAction func p5end(_ sender: UITextField) {
+        if (pc5.text == ""){
+            pc5.text = "0%"
+        }
+        else {
+            pc5.text = pc5.text! + "%"
+        }
+    }
+    @IBAction func p6(_ sender: UITextField) {
+        pc6.text = ""
+    }
+    @IBAction func p6end(_ sender: UITextField) {
+        if (pc6.text == ""){
+            pc6.text = "0%"
+        }
+        else {
+            pc6.text = pc6.text! + "%"
+        }
+    }
+    @IBAction func p7(_ sender: UITextField) {
+        pc7.text = ""
+    }
+    @IBAction func p7end(_ sender: UITextField) {
+        if (pc7.text == ""){
+            pc7.text = "0%"
+        }
+        else {
+            pc7.text = pc7.text! + "%"
+        }
+    }
+    @IBAction func p8(_ sender: UITextField) {
+        pc8.text = ""
+    }
+    @IBAction func p8end(_ sender: UITextField) {
+        if (pc8.text == ""){
+            pc8.text = "0%"
+        }
+        else {
+            pc8.text = pc8.text! + "%"
+        }
+    }
     @IBAction func g1(_ sender: UITextField) {
         grade1.text = ""
     }
