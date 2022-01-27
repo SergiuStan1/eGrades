@@ -130,7 +130,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.092571206390857697" green="0.54446017742156982" blue="0.28210115432739258" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="p1:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="rhh-ez-7Xe"/>
                                     <action selector="p1end:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="i2o-lY-GLT"/>
@@ -141,7 +141,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.092571206390857697" green="0.54446017742156982" blue="0.28210115432739258" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="p2:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="L4G-WB-NiE"/>
                                     <action selector="p2end:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="dOd-Mf-8LK"/>
@@ -152,7 +152,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.092571206390857697" green="0.54446017742156982" blue="0.28210115432739258" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="p2:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="lve-aR-rPv"/>
                                     <action selector="p3:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="hA5-GQ-Ouo"/>
@@ -164,7 +164,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.092571206390857697" green="0.54446017742156982" blue="0.28210115432739258" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="p4:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="wet-So-Nj0"/>
                                     <action selector="p4end:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="01t-Oc-RG0"/>
@@ -175,7 +175,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.092571206390857697" green="0.54446017742156982" blue="0.28210115432739258" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="p5:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="7hH-iv-u6r"/>
                                     <action selector="p5end:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Yv1-cE-BNd"/>
@@ -186,7 +186,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.092571206390857697" green="0.54446017742156982" blue="0.28210115432739258" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="p6:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="gVz-UD-xCC"/>
                                     <action selector="p6end:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="WNE-By-EG7"/>
@@ -197,7 +197,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.092571206390857697" green="0.54446017742156982" blue="0.28210115432739258" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="p7:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="mpe-Og-R87"/>
                                     <action selector="p7end:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="9sS-ey-1Ms"/>
@@ -208,7 +208,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.092571206390857697" green="0.54446017742156982" blue="0.28210115432739258" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="p8:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="fOW-WW-hSf"/>
                                     <action selector="p8end:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="sgZ-e1-m6M"/>
