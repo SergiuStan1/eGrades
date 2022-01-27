@@ -7,8 +7,8 @@ Currently in development.
 This app calculates your grade averages and processes your school performance in order to generate accurate statistics about your school performance.
 
 Currently working on:\
-✚ Optimizing the app and finishing basic functionality. ✅\ 
-✚ Capability to select how important a grade is for the final grade. (Percentages) ✅\
+✅  Optimizing the app and finishing basic functionality.\
+✅  Capability to select how important a grade is for the final grade. (Percentages)\
 ✚ Adding statistics screen based on revious entries.\
 ✚ Exam/Assignment alarm with push notifications.\
 ✚ PDF Reports of your university/school performance based on entries.\
