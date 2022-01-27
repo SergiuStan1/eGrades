@@ -154,7 +154,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
-                                    <action selector="p2:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="lve-aR-rPv"/>
                                     <action selector="p3:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="hA5-GQ-Ouo"/>
                                     <action selector="p3end:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="r7R-Yn-NJn"/>
                                 </connections>
